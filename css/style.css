@@ -126,18 +126,26 @@ section {
 
 .cm-aside-div1 {
     background-color: rgb(3, 152, 158);
-    width: 35%;
-    margin: 0.2rem;
+    width: 56%;
+    height: 7.5rem;
+    margin: 1rem 0rem 0rem 0.8rem;
     padding: 0rem 0rem 0rem 0rem;
     text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cm-aside-div2 {
     background-color: rgb(3, 152, 158);
-    width: 35%;
-    margin: 0.2rem;
+    width: 32%;
+    height: 7.5rem;
+    margin: 0rem 0rem 0rem 0.5rem;
     padding: 0rem 0rem 0rem 0rem;
     text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-aside {
