@@ -88,7 +88,23 @@ section {
     width: var(--width);
     height: 14rem;
     margin: var(--margin);
-    padding: var(--padding);
+    padding: var(--padding);   
+}
+
+.cm-article-div1 {
+    background-color: rgb(3, 152, 158);
+    width: 35%;
+    margin: 0.2rem;
+    padding: 0rem 0rem 0rem 0rem;
+    text-align: center;
+}
+
+.cm-article-div2 {
+    background-color: rgb(3, 152, 158);
+    width: 35%;
+    margin: 0.2rem;
+    padding: 0rem 0rem 0rem 0rem;
+    text-align: center;
 }
 
 .cm-aside {
@@ -98,6 +114,22 @@ section {
     height: 14rem;
     margin: var(--margin);
     padding: var(--padding);
+}
+
+.cm-aside-div1 {
+    background-color: rgb(3, 152, 158);
+    width: 35%;
+    margin: 0.2rem;
+    padding: 0rem 0rem 0rem 0rem;
+    text-align: center;
+}
+
+.cm-aside-div2 {
+    background-color: rgb(3, 152, 158);
+    width: 35%;
+    margin: 0.2rem;
+    padding: 0rem 0rem 0rem 0rem;
+    text-align: center;
 }
 
 .container-aside {
