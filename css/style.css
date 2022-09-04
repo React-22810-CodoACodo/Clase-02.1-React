@@ -3,7 +3,10 @@
 :root {
     --font-family: 'Open Sans', sans-serif;
     --color: white;
-    --height: 80rem;
+    --height: 83rem;
+    --width: 88%;
+    --margin: 0.6rem 0rem 2rem 1.7rem;
+    --padding: 0.8rem 0rem 0rem 0.5rem;
     --font-weight: 700;
     --font-size: 3rem;
     --display: flex;
@@ -58,8 +61,8 @@ nav {
 .container-nav-div {
     background-color: rgb(3, 152, 158);
     width: 80%;
-    height: 20rem;
-    margin: 3rem 0rem 0rem 2.5rem;
+    height: 17rem;
+    margin: 3rem 0rem 0rem 2rem;
     padding: 2.5rem 0rem 0rem 0rem;
 }
 
@@ -70,8 +73,35 @@ nav {
     padding: 1.4rem 0rem 0rem 3.4rem;
 }
 
+section {
+    background-color: rgb(226, 226, 226);
+    color: rgb(50, 45, 55);
+    width: 96%;
+    height: 36rem;
+    margin: 2.3rem 0rem 0rem -1.2rem;
+    padding: 0.4rem 0rem 0rem 0.4rem;
+}
+
+.cm-article {
+    background-color: rgb(115, 115, 115);
+    color: var(--color);
+    width: var(--width);
+    height: 14rem;
+    margin: var(--margin);
+    padding: var(--padding);
+}
+
+.cm-aside {
+    background-color: rgb(166, 166, 166);
+    color: var(--color);
+    width: var(--width);
+    height: 14rem;
+    margin: var(--margin);
+    padding: var(--padding);
+}
+
 .container-aside {
-    background: rgb(166, 166, 166);
+    background-color: rgb(166, 166, 166);
     width: 25%;
     margin: 0rem 0rem 0rem 0rem;
     padding: 1.4rem 0rem 0rem 0rem;
@@ -81,7 +111,7 @@ nav {
 .container-aside-div {
     background-color: rgb(3, 152, 158);
     width: 80%;
-    height: 20rem;
+    height: 17rem;
     margin: 3rem 0rem 0rem 1.5rem;
     padding: 2.5rem 0rem 0rem 0rem;
 }
