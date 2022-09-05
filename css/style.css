@@ -177,7 +177,7 @@ footer{
 
 /* *************************************************************** */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 881px) {
 
     .div-body {
         color: var(--color);
