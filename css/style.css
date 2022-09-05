@@ -215,6 +215,7 @@ footer{
         font-size: var(--font-size);
         margin: 0rem 0rem 1rem 0rem;
         display: var(--display);
+        /* width: 69.65rem; */
         width: 69.65rem;
     }
     
@@ -236,7 +237,8 @@ footer{
     
     .container-main {
         background-color: rgb(3, 152, 158);
-        width: auto;
+        /* width: auto; */
+        width: 50%;
         margin: 0rem 1rem 0rem 1rem;
         padding: 1.4rem 0rem 0rem 3.4rem;
     }
@@ -244,7 +246,7 @@ footer{
     section {
         background-color: rgb(226, 226, 226);
         color: rgb(50, 45, 55);
-        width: auto;
+        width: 96%;
         height: 36rem;
         margin: 2.3rem 0rem 0rem -1.2rem;
         padding: 0.4rem 0rem 0rem 0.4rem;
@@ -318,7 +320,8 @@ footer{
     
     .container-aside {
         background-color: rgb(166, 166, 166);
-        width: auto;
+        /* width: auto; */
+        width: 25%;
         margin: 0rem 0rem 0rem 0rem;
         padding: 1.4rem 0.8rem 0rem 0rem;
         text-align: center;
